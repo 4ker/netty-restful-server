@@ -57,18 +57,6 @@ public class MySelect<A> extends Mysql {
             fields[i] = fieldArray[i].trim().replace("`", "");
         }
 
-//        try {
-//            if (fields.length == 0) {
-//                throw new Exception("no select fields");
-//            }
-//
-//            if (fields.length == 1 && fields[0].equals("*")) {
-//                throw new Exception("select * not supported");
-//            }
-//        } catch (Exception e) {
-//            logger.error(e.getMessage());
-//        }
-
         return fields;
     }
 

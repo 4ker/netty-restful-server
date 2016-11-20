@@ -6,8 +6,8 @@ import java.util.Properties;
 
 public class Config {
 
-    private static       Properties properties = new Properties();
-    private static final String     configName = "/nettyrest.properties";
+    private static Properties properties = new Properties();
+    private static final String configName = "/nettyrest.properties";
     private static Config instance;
 
     private Config() {
